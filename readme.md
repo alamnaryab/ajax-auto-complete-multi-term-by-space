@@ -1,4 +1,4 @@
-Freelancer task
+Freelancer task: https://www.freelancer.com/projects/php/simple-php-ajax-live-search/
 
 demo on : http://demo.alampk.com/ajax-search-freelancer/
 
