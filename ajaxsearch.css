@@ -1,0 +1,41 @@
+.container{
+    width:500px;
+    min-width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.ajaxsearch-wrapper{
+    position:relative;
+}
+.ajaxsearch-input{
+    padding:4px;
+    width:490px;
+    min-width: 160px;
+}
+.ajaxsearch-pane{
+    width:100%;
+    position:absolute;
+    border:1px solid #DDD;
+    box-shadow: 2px 2px 4px #CCC;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+a.ajaxsearch-item{
+    border-bottom:1px solid #DDD;
+    display: block;
+    padding:5px;
+    text-decoration: none;
+    color:inherit;
+}
+a.ajaxsearch-item.active,
+a.ajaxsearch-item:focus,
+a.ajaxsearch-item:hover{
+    background: #1122AA;
+    color:#FFF;
+}
+.ajaxsearch-pane span{
+    display:inline-block;
+    margin: 2px 5px;
+    background: transparent;
+}
